@@ -195,6 +195,14 @@ h6,
   color: #a35e35;
 }
 
+.medidas {
+  color: #084db4;
+}
+
+.mas-img {
+  margin-top: 20px;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
