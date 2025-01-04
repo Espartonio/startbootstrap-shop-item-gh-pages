@@ -61,7 +61,7 @@
     "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.15),
+    rgba(59, 51, 51, 0.077),
     rgba(255, 255, 255, 0)
   );
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -209,7 +209,16 @@ btn-primary {
 }
 
 .seccion-oscura {
-  background-color: #565454;
+  background-color: rgb(0, 0, 0);
+}
+
+.texto-blanco {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #fff;
 }
 
 .all-prduct {
@@ -217,6 +226,11 @@ btn-primary {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.carousel {
+  max-width: 800%;
+  margin: 0 auto;
 }
 
 p {
@@ -548,8 +562,9 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   font-weight: 300;
+  margin-top: -5%;
 }
 
 .display-1 {
